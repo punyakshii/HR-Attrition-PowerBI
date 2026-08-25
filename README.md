@@ -1,85 +1,62 @@
 # HR Attrition & Retention Intelligence Dashboard
 
-An interactive **Power BI HR Analytics Dashboard** designed to analyze employee attrition, retention patterns, workforce risk factors, and key drivers of employee turnover.
+An interactive **Power BI HR Analytics Dashboard** built to analyze employee attrition, retention patterns, workforce risk segments, and factors associated with employee turnover.
 
-The project transforms employee-level HR data into an interactive two-page analytical dashboard that helps identify high-risk employee segments and potential areas for retention strategies.
+The project transforms HR employee data into a two-page interactive dashboard designed to help HR teams explore **where attrition is concentrated and which employee characteristics are associated with higher attrition**.
 
 ---
 
 ## 📊 Project Overview
 
-Employee attrition is an important business problem because high employee turnover can increase recruitment costs, reduce productivity, and affect workforce stability.
+Employee attrition can increase recruitment costs, affect productivity, and create workforce stability challenges.
 
-This project analyzes employee data to answer questions such as:
+This project uses Power BI to analyze employee data and answer key business questions:
 
-- What is the overall employee attrition rate?
-- Which departments have the highest attrition?
-- Which job roles have higher attrition risk?
-- Does overtime affect employee attrition?
-- Which tenure groups are most at risk?
-- Which age groups show higher attrition?
-- Does income level relate to employee attrition?
-- Which combinations of job role and overtime create attrition hotspots?
-- What factors are most strongly associated with employee attrition?
-
-The dashboard is divided into two analytical pages:
-
-1. **Executive Overview**
-2. **Attrition Drivers & Risk Analysis**
+- What is the overall attrition rate?
+- Which departments and job roles have higher attrition?
+- How does overtime relate to employee attrition?
+- Which tenure groups have higher attrition risk?
+- Which age and income groups show higher attrition?
+- Which job role and overtime combinations create attrition hotspots?
+- Which employee characteristics are associated with higher attrition?
 
 ---
 
-# 🎯 Business Objective
+## 🎯 Business Objective
 
-The main objective of this project is to provide an interactive analytical solution that helps HR teams:
+The objective of this project is to provide an interactive analytical solution that helps HR teams:
 
 - Monitor employee attrition and retention.
 - Identify high-risk employee segments.
-- Understand workforce attrition patterns.
 - Compare attrition across departments and job roles.
-- Investigate the relationship between overtime and attrition.
-- Identify early-tenure employees with higher attrition risk.
-- Explore employee characteristics associated with turnover.
+- Analyze overtime and tenure-related attrition patterns.
+- Explore demographic and compensation-related patterns.
+- Identify areas that may require further HR investigation.
 - Support data-driven employee retention strategies.
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
-| Tool / Technology | Purpose |
-|---|---|
-| **Power BI** | Dashboard development and data visualization |
-| **Power Query** | Data cleaning and transformation |
-| **DAX** | Calculated measures and KPIs |
-| **Data Modeling** | Organizing analytical fields and measures |
-| **Power BI Key Influencers** | Identifying factors associated with attrition |
-| **Data Visualization** | Communicating HR insights |
-
-### Skills Demonstrated
-
-- Data Cleaning
-- Data Transformation
-- Exploratory Data Analysis
-- DAX
-- Power Query
+- **Power BI**
+- **Power Query**
+- **DAX**
+- Data Cleaning & Transformation
+- Data Modeling
 - Data Visualization
-- Dashboard Design
-- Interactive Reporting
+- Interactive Dashboard Design
 - HR Analytics
-- Business Insight Generation
 
 ---
 
-# 📁 Project Structure
+## 📁 Repository Structure
 
 ```text
 HR-Attrition-PowerBI/
 │
 ├── HR Attrition Dashboard.pbix
-│
 ├── README.md
 │
 └── screenshots/
-    │
     ├── page1-executive-overview.png
     └── page2-attrition-drivers.png
